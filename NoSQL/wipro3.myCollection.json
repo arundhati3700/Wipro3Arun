@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "66b071a8ee440b8543997e32"
+  },
+  "id": 1,
+  "name": "Arun",
+  "salary": 67000,
+  "skills": [
+    "Java",
+    "MySQL",
+    "MongoDB",
+    "Public Speaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66b073bdee440b8543997e33"
+  },
+  "id": 2,
+  "name": "Ram",
+  "salary": 70000,
+  "Address": {
+    "area": "Ulsoor",
+    "city": "Bangaluru",
+    "state": "KA"
+  },
+  "skills": [
+    "Java",
+    "MySQL",
+    "MongoDB",
+    "Public Speaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66b079c3ee440b8543997e34"
+  },
+  "id": 3,
+  "name": "Deepak",
+  "salary": 60000,
+  "Address": {
+    "area": "MG Road",
+    "city": "Bangaluru",
+    "state": "KA"
+  },
+  "skills": [
+    "PHP",
+    "MySQL",
+    "MongoDB",
+    "Public Speaking"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66b079c3ee440b8543997e35"
+  },
+  "id": 4,
+  "name": "Kailash",
+  "salary": 72000,
+  "Address": {
+    "area": "Chennai",
+    "city": "Chennai",
+    "state": "TN"
+  },
+  "skills": [
+    "Java",
+    "MySQL",
+    "MongoDB",
+    "Public Speaking"
+  ]
+}]
