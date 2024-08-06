@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<!-- property - dependency injection by setter -->
+	<bean id = "empbean" class="com.arun.spring_6aug.model.Employee">
+		<property name="id" value="101"></property>
+		<property name="name" value="Rohan"></property>
+	</bean>
+	<bean id = "emp2" class="com.arun.spring_6aug.model.Employee">
+		<property name="id" value="102"></property>
+		<property name="name" value="Archana"></property>
+	</bean>
+	<bean id = "emp3" class="com.arun.spring_6aug.model.Employee">
+		<constructor-arg value="103" type="int"></constructor-arg>
+		<constructor-arg value="Divya"/>
+	</bean>
+</beans>
